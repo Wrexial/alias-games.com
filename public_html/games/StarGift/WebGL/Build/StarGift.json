@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "StarGift.data.unityweb",
+"asmCodeUrl": "StarGift.asm.code.unityweb",
+"asmMemoryUrl": "StarGift.asm.memory.unityweb",
+"asmFrameworkUrl": "StarGift.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#222C36"
+}

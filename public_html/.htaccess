@@ -1,0 +1,14 @@
+# Begin cache control #
+ExpiresActive on
+ExpiresDefault "now plus 1440 minutes"
+ExpiresByType text/html "now plus 1440 minutes"
+<FilesMatch "\.(css|bmp|png|ico|gff|htm|html|js|jpg|jpeg|gif|gcf)$">
+FileETag MTime Size
+ExpiresDefault "now plus 1440 minutes"
+</FilesMatch>
+# End cache control #
+
+RewriteEngine On 
+RewriteCond %{HTTP_HOST} ^dylanabela.com [NC]
+RewriteCond %{SERVER_PORT} 80 
+RewriteRule ^(.*)$ https://www.dylanabela.com/$1 [R=301,L]
